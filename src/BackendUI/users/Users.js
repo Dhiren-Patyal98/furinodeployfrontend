@@ -16,7 +16,7 @@ export default function Users() {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/user/getuser');
+        const response = await axios.get('https://furnirobackendtest-3.onrender.com/api/user/getuser');
         setUsers(response.data.data); // Assuming response.data.data is an array of users
       } catch (err) {
         setError(err.message);
@@ -31,7 +31,7 @@ export default function Users() {
   const handleDelete = async (id) => {
     try {
       console.log(id);  
-      await axios.delete(`http://localhost:5000/api/user/deleteuser/${id}`);
+      await axios.delete(`https://furnirobackendtest-3.onrender.com/api/user/deleteuser/${id}`);
       setUsers(users.filter(user => user._id !== id));
     } catch (err) {
       setError(err.message);

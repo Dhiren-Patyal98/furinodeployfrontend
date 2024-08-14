@@ -1,0 +1,345 @@
+
+.headContainer
+{
+    width: 100%;
+    height:90vh;
+   
+}
+
+.backgroundImage
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../Images/Homepageimages/scandinavian-interior-mockup-wall-decal-background\ 1.png');
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+.innerContainer
+{
+    width: 43%;
+    height: 43%;
+    background-color: #FFF3E3;
+   
+   margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+    margin-right: 5%;
+}
+
+.content
+{
+    width: 85%;
+    height: 45%;
+    
+}
+
+.content-text
+{
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 160%;
+  color: #333333;
+}
+
+.content-p
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 500%;
+    color: #B88E2F;
+}
+
+.content p{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:180%;
+    color:#333333;
+
+}
+
+.button
+{
+    width: 45%;
+    height: 25%;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:180%;
+    color:#FFFFFF;
+    background-color: #B88E2F;
+    border: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    /* CSS rules */
+
+    .button
+{
+    width: 45%;
+    height: 25%;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:180%;
+    color:#FFFFFF;
+    background-color: #B88E2F;
+    border: none;
+}
+.innerContainer
+{
+    width: 43%;
+    height: 53%;
+    /* background-color: #FFF3E3; */
+   
+   margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+    margin-right: 5%;
+}
+}
+
+/* Small devices (portrait phones and small tablets, 601px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* CSS rules */
+    .innerContainer
+{
+    width: 100%;
+    height: 53%;
+    /* background-color: #FFF3E3; */
+   
+   margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+    margin-right: 5%;
+}
+}
+
+/* Portrait tablets and small desktops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules */
+}
+
+/* Medium devices (landscape tablets and laptops, 1025px to 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS rules */
+}
+
+/* Large devices (laptops/desktops, 1281px to 1440px) */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    /* CSS rules */
+}
+
+/* Extra large devices (large laptops and desktops, 1441px and up) */
+@media (min-width: 1441px) {
+    /* CSS rules */
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1024px) {
+    /* CSS rules */
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS rules */
+}
+
+/* Large desktops and widescreen monitors */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    /* CSS rules */
+}
+
+/* Extra large desktops and widescreen monitors */
+@media (min-width: 1441px) {
+    /* CSS rules */
+}
+
+/* Portrait phones */
+@media (max-width: 480px) {
+    /* CSS rules */
+}
+
+/* Landscape phones */
+@media (max-width: 767px) and (orientation: landscape) {
+    /* CSS rules */
+}
+
+/* MacBook Air 11" and similar (1366px) */
+@media (max-width: 1366px) {
+    /* CSS rules */
+}
+
+/* MacBook Air 13" and MacBook Pro 13" (1440px) */
+@media (max-width: 1440px) {
+    /* CSS rules */
+}
+
+/* MacBook Pro 15" and similar (1680px) */
+@media (max-width: 1680px) {
+    .innerContainer
+    {
+        width: 43%;
+        height: 63%;
+        /* background-color: #FFF3E3; */
+       
+       /* margin-top: 0%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2%;
+        margin-right: 5%;
+    }
+    /* CSS rules */
+}
+
+
+
+@media (max-width: 1309px) {
+    .innerContainer
+    {
+        width: 43%;
+        height: 3%;
+        /* background-color: #FFF3E3; */
+       
+       margin-top: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2%;
+        margin-right: 5%;
+    }
+
+    .content
+{
+    width: 85%;
+    height: 75%;
+    
+}
+
+.content-text
+{
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 160%;
+  color: #333333;
+}
+
+.content-p
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 500%;
+    color: #B88E2F;
+}
+
+.content p{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:180%;
+    color:#333333;
+
+}
+
+.button
+{
+    width: 45%;
+    height: 25%;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:180%;
+    color:#FFFFFF;
+    background-color: #B88E2F;
+    border: none;
+}
+    /* CSS rules */
+}
+
+@media (max-width: 1084px) {
+    .content-p
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 400%;
+    color: #B88E2F;
+}
+}
+
+@media (max-width: 869px) {
+    .content-p
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 300%;
+    color: #B88E2F;
+
+}
+
+.button
+{
+    width: 35%;
+    height: 15%;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:180%;
+    color:#FFFFFF;
+    background-color: #B88E2F;
+    border: none;
+}
+.innerContainer
+    {
+        width: 43%;
+        height: 63%;
+        /* background-color: #FFF3E3; */
+       
+       margin-top: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2%;
+        margin-right: 5%;
+    }
+}
+@media (max-width: 715px) {
+    .content-p
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 300%;
+    color: #B88E2F;
+
+}
+
+.button
+{
+    width: 35%;
+    height: 15%;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:180%;
+    color:#FFFFFF;
+    background-color: #B88E2F;
+    border: none;
+}
+.innerContainer
+    {
+        width: 43%;
+        height: 73%;
+        /* background-color: #FFF3E3; */
+       
+       margin-top: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2%;
+        margin-right: 5%;
+    }
+}

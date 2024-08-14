@@ -1,0 +1,69 @@
+/* Wrapper for the entire page */
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Full viewport height */
+    overflow: hidden; /* Prevents overflow from affecting the body */
+    box-sizing: border-box;
+ 
+  }
+  
+  /* Container that handles the scrolling of table content */
+  .table-container {
+    flex: 1;
+    overflow-y: auto; /* Allows vertical scrolling if the content overflows */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Table styling */
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .product-table thead {
+    background-color: #f4f4f4;
+  }
+  
+  .product-table th {
+    font-weight: bold;
+  }
+  
+  .product-table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .table-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .delete-icon {
+    color: red;
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .delete-icon:hover {
+    color: darkred;
+  }
+
+  
+  

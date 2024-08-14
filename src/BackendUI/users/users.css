@@ -1,0 +1,37 @@
+/* Ensure the container takes up full viewport height and width */
+.table-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 30px 20px; /* Add top margin of 30px and padding on all sides */
+  box-sizing: border-box;
+  overflow-y: auto; /* Scroll if necessary */
+  display: block; /* Ensure content is not centered */
+}
+
+/* Style the table */
+.user-table {
+  width: 100%;
+  max-width: 1200px; /* Optional: Sets a max width for better readability on larger screens */
+  border-collapse: collapse;
+  font-size: 16px; /* Standard font size */
+  margin-top: 0; /* Ensure no additional margin is added to the table */
+}
+
+.user-table th, .user-table td {
+  padding: 15px; /* Increase padding for better spacing */
+  text-align: center; /* Center align text */
+}
+
+.user-table th {
+  background-color: #f4f4f4; /* Light background for header */
+  font-weight: bold;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternate row background */
+}
+
+.user-table td {
+  border: none; /* Remove border */
+}
+

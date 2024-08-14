@@ -1,0 +1,23 @@
+.cat {
+    width: 80vw; /* Full width */
+    padding: 30px 20px; /* Add top padding and side padding */
+    box-sizing: border-box; /* Include padding in width calculations */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly; /* Center buttons horizontally */
+  }
+  
+  /* Container for button elements */
+  .cat-buttons {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
+    margin-bottom: 30px; /* Space below buttons */
+  }
+  .cat-button button {
+    height: 50px;
+    width: 100px;
+  }
+  

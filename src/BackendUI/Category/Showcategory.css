@@ -1,0 +1,42 @@
+/* Container for showing categories */
+.show-cat-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards horizontally */
+    align-items: flex-start; /* Align cards at the top of the container */
+    gap: 20px; /* Space between cards */
+    width: 100%; /* Full width of the container */
+    max-width: 1200px; /* Optional: Set a max width for better readability */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px; /* Padding inside the container */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+   
+  }
+  /* Styling for each card */
+  .pre-show-cat {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for each card */
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    text-align: center; /* Center text inside the card */
+  }
+  
+  .pre-show-cat h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .pre-show-cat:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
